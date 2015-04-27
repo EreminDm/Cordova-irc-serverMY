@@ -1,0 +1,28 @@
+{
+  "name": "cordova-irc-server",
+  "version": "1.0.0",
+  "description": "Web sockets server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DeutchKazakhUnivercity/cordova-irc-server.git"
+  },
+  "keywords": [
+    "IRC",
+    "WebSockets"
+  ],
+  "author": "Andrey Kurdyumov <kant2002@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DeutchKazakhUnivercity/cordova-irc-server/issues"
+  },
+  "homepage": "https://github.com/DeutchKazakhUnivercity/cordova-irc-server",
+  "dependencies": {
+    "ws": "^0.7.1",
+    "yargs":  "^3.7.1",
+    "socket.io": "^1.3.5"
+  }
+}
